@@ -24,4 +24,19 @@ A calendar app being developed purely in java, meant for studies to create an ea
   <li><i>Fetch textfiles</i></li>
   <li><i>Write textfiles</i></li>
 </ul>
-
+<i>State manager (public static):</i>
+<ul>
+  <li><i>Which window is active</i></li>
+  <li><i>Render window function, changes when state is switched</i></li>
+</ul>
+<i>Custom JComponents:</i>
+<ul>
+  <li>Colorwheel picker (JPanel, mouse events)</li>
+  <li>Ghost textfields (JTextfield, focus event, update event</li>
+  <li>Buttons with custom design</li>
+</ul>
+<i>Event handler</i>
+<ul> 
+  <li>Handles all keyinput and mouse events not exclusive to components (ex. custom buttons have own)</li>
+  <li>Utilizes state to switch between interactions</li>
+</ul>
