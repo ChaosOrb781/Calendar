@@ -9,14 +9,20 @@ A calendar app being developed purely in java, meant for studies to create an ea
   <li>Note(string, optional)</li>
   <li>Date and time(DateFormat, date: required, time: optional)</li>
   <li>Category(string, required)</li>
-  <li><i>Include JPanel showing corrosponding information</i></li>
+  <li><i>Include JPanel showing corresponding information</i></li>
   <li><i>Use create event method and store in internal array</i></li>
 </ul>
 <i>Category (public):</i>
 <ul>
   <li>Title(string)</li>
   <li>Color(Color)</li>
-  <li>Description(string) // Constant thoughout same category</li>
+  <li>Description(string) // Constant throughout same category</li>
+</ul>
+<b>Miscellaneous classes </b><br>
+<i>Category manager (public static):</i>
+<ul>
+  <li><i>Stores the different categories made</i></li>
+  <li><i>Can add and remove at will</i></li>
 </ul>
 <i>Resource manager (public static):</i>
 <ul>
