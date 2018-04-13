@@ -4,7 +4,7 @@ import java.awt.Color;
 
 import javax.swing.JPanel;
 
-public class CreateCategory extends DefaultScreen {
+public class CreateCategory extends DefaultScreen implements IState {
 	private JPanel INSTANCE;
 		
 	private CreateCategory() {
@@ -18,4 +18,7 @@ public class CreateCategory extends DefaultScreen {
 		}
 		return INSTANCE;
 	}
+
+	@Override
+	public void Render() { }
 }

@@ -8,17 +8,17 @@ import components.Window;
 
 public class Program {
 	
-	private static Rectangle defaultSize = new Rectangle(0,0,700,420); 
+	public static Rectangle defaultSize = new Rectangle(0,0,700,420); 
 	public static Window window;
 	
 	public static void main(String[] args) {
+		window = new Window("Calendar by Chaos", defaultSize);
 		SwingUtilities.invokeLater(new Runnable() {
 	        public void run() { setup(); }
 	    });
 	}
 	
 	private static void setup() {
-		window = new Window("Calendar by Chaos", defaultSize);
 		window.setVisible(true);
 	}
 }

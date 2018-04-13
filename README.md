@@ -1,11 +1,11 @@
 # Calendar
-A calendar app being developed purely in java, meant for studies to create an easy overview of upcoming events. <br>
+A calendar app being developed purely in java, meant for studies to create an easy overview of upcoming events. Displaying the 10 next events<br>
 <br>
 <b>Object structure:</b><br>
 <i>Event (public):</i>
 <ul>
   <li>Title(string, required)</li>
-  <li>Subtitle(string, optional)</li>
+  <li>Category title(string, optional)</li>
   <li>Note(string, optional)</li>
   <li>Date and time(DateFormat, date: required, time: optional)</li>
   <li>Category(string, required)</li>

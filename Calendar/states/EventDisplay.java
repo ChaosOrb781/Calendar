@@ -5,7 +5,7 @@ import java.awt.Color;
 import javax.swing.JPanel;
 
 @SuppressWarnings("serial")
-public class EventDisplay extends DefaultScreen{
+public class EventDisplay extends DefaultScreen implements IState {
 	private JPanel INSTANCE;
 	
 	private EventDisplay() {
@@ -19,4 +19,7 @@ public class EventDisplay extends DefaultScreen{
 		}
 		return INSTANCE;
 	}
+
+	@Override
+	public void Render() { }
 }

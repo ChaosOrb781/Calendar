@@ -4,7 +4,7 @@ import java.awt.Color;
 
 import javax.swing.JPanel;
 
-public class CreateEvent extends DefaultScreen {
+public class CreateEvent extends DefaultScreen implements IState {
 	private JPanel INSTANCE;
 	
 	private CreateEvent() {
@@ -18,4 +18,7 @@ public class CreateEvent extends DefaultScreen {
 		}
 		return INSTANCE;
 	}
+
+	@Override
+	public void Render() { }
 }
